@@ -1,0 +1,101 @@
+### **Create style.css**
+
+css
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+}
+
+nav {
+
+    background: #333;
+
+    padding: 10px;
+
+}
+
+nav ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+nav ul li {
+
+    display: inline;
+
+    margin: 0 15px;
+
+}
+
+nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+img {
+
+    width: 80%;
+
+    max-width: 600px;
+
+    margin-top: 20px;
+
+}
+
+/* Accordion Styles */
+
+.accordion {
+
+    max-width: 600px;
+
+    margin: auto;
+
+}
+
+.accordion-item {
+
+    border-bottom: 1px solid #ccc;
+
+}
+
+.accordion-header {
+
+    background: #eee;
+
+    padding: 10px;
+
+    width: 100%;
+
+    text-align: left;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.accordion-content {
+
+    display: none;
+
+    padding: 10px;
+
+    background: #f9f9f9;
+
+}
+
+
