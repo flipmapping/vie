@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V International Education</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>VIE Website</title>
 </head>
 <body>
+<header>
+<img src="C:/Users/Owner/vie/images/LogoVIE.png" alt="VIE Logo" style="width: 21.12%; float: left;">
 
-    <!-- Header with Logo -->
-    <header>
-        <img src="https://raw.githubusercontent.com/flipmapping/vie/main/images/LogoVIE.png" alt="Logo" class="logo">
-    </header>
 
-    <!-- Main Content Section -->
-    <section id="home">
-    <h1>Welcome to V International Education</h1>
-    <p>Explore our win-win Partnership Program to Transform our Business Together:</p>
+    <h1 style="text-align: left;">Welcome to V International Education</h1>
+    <h2 style="text-align: left;">Explore our win-win Partnership Program to Transform our Business Together</h2>
+
+</header>
+<main>
 
     <!-- Embed Genially Content -->
     <iframe src="https://view.genially.com/67376ecf0c6ff7070b2a3e9e/interactive-content-partnership-model" 
@@ -24,29 +23,31 @@
             style="border: none;" 
             allowfullscreen>
     </iframe>
-</section>
-
-    </section>
-
-    <!-- FAQ Section with Accordion -->
-    <section id="faq">
+    <section class="accordion">
         <h2>Frequently Asked Questions</h2>
-        <div class="accordion">
-            <div class="accordion-item">
-                <button class="accordion-header">What is this website about?</button>
-                <div class="accordion-content">
-                    <p>This is a demo website for learning purposes.</p>
-                </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header">Question 1</h3>
+            <div class="accordion-content">
+                <p>Answer to question 1 goes here.</p>
             </div>
-            <div class="accordion-item">
-                <button class="accordion-header">How was this built?</button>
-                <div class="accordion-content">
-                    <p>Using HTML, CSS, JavaScript, and GitHub Pages.</p>
-                </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header">Question 2</h3>
+            <div class="accordion-content">
+                <p>Answer to question 2 goes here.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header">Question 3</h3>
+            <div class="accordion-content">
+                <p>Answer to question 3 goes here.</p>
             </div>
         </div>
     </section>
-
-    <script src="script.js"></script>
+</main>
+<footer>
+    <p>&copy; 2024 V International Education</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
